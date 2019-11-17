@@ -10,6 +10,8 @@ brew 'git'
 cask 'iterm2'
 cask 'intellij-idea'
 brew 'node'
+cask 'rider'
+cask 'vimr'
 
 # security tools
 cask '1password', args: { appdir: "/Applications" }
@@ -20,6 +22,7 @@ cask 'google-chat'
 cask 'google-chrome'
 cask 'omnigraffle'
 cask 'zoomus'
+mas 'Affinity Designer', id: 824171161
 mas 'Fantastical', id: 975937182
 mas 'Keynote', id: 409183694
 mas 'Kindle', id: 405399194
