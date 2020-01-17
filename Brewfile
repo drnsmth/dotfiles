@@ -23,6 +23,7 @@ cask 'google-chrome'
 cask 'omnigraffle'
 cask 'zoomus'
 mas 'Affinity Designer', id: 824171161
+mas 'Amphetamine', id: 937984704
 mas 'ByWord', id: 420212497
 mas 'Fantastical', id: 975937182
 mas 'Keynote', id: 409183694
