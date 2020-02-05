@@ -1,4 +1,4 @@
 bindkey -v
 
 export GOPATH=~/Code/go
-export PATH=$PATH:$GOPATH/bin:~/.bin
+export PATH=$GOPATH/bin:~/.bin:/usr/local/bin:$PATH

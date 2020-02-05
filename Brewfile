@@ -10,8 +10,12 @@ brew 'git'
 cask 'iterm2'
 cask 'intellij-idea'
 brew 'node'
+brew 'pandoc'
+brew 'python@2'
+brew 'python3'
 cask 'rider'
 cask 'vimr'
+
 
 # security tools
 cask '1password', args: { appdir: "/Applications" }
