@@ -9,6 +9,7 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'elzr/vim-json'
 Plug 'plasticboy/vim-markdown'
+Plug 'junegunn/goyo.vim'
 Plug 'drewtempelmeyer/palenight.vim'
 call plug#end()
 
@@ -38,6 +39,9 @@ let g:vim_markdown_math = 1
 let g:vim_markdown_frontmatter = 1  " for YAML format
 let g:vim_markdown_toml_frontmatter = 1  " for TOML format
 let g:vim_markdown_json_frontmatter = 1  " for JSON format
+
+" Create new command to turn on wrapping of text
+command! -nargs=* Wrap set wrap linebreak nolist
 
 set background=dark
 colorscheme palenight
