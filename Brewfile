@@ -15,6 +15,7 @@ brew 'python@2'
 brew 'python3'
 cask 'rider'
 cask 'vimr'
+brew 'zsh'
 
 
 # security tools
@@ -40,6 +41,7 @@ mas 'Trello', id: 1278508951
 
 # fonts
 cask 'font-fontawesome'
+cask 'font-hack'
 cask 'font-ia-writer-mono'
 cask 'font-open-sans'
 cask 'font-rubik'
