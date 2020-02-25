@@ -27,7 +27,7 @@ cask '1password', args: { appdir: "/Applications" }
 
 # apps
 cask 'firefox'
-cask 'google-chat'
+cask 'google-chat' if isWork
 cask 'google-chrome'
 cask 'omnigraffle' if isWork
 cask 'zoomus' if isWork
@@ -42,10 +42,14 @@ mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
 mas 'Things', id: 904280696
 mas 'Trello', id: 1278508951 if isWork
+mas 'Paprika Recipe Manager 3', id: 1303222628 unless isWork
 
 # fonts
 cask 'font-fontawesome'
 cask 'font-hack'
 cask 'font-ia-writer-mono'
+cask 'font-merriweather'
 cask 'font-open-sans'
 cask 'font-rubik'
+cask 'font-roboto'
+
